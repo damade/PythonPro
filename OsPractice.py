@@ -1,3 +1,3 @@
 import os
-import  math
-print(int(3/2))
+
+print(os.getcwd())  # to get current working directory.
