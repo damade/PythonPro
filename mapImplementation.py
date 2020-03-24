@@ -5,10 +5,8 @@ numericList = [1, 2, 3, 4, 5, 6, 7, 8, 9]  # creating list for numbers
 def convertToUpperStrings(item):  # creating a "pure function" that turns a string to upper case
     return str(item).upper()
 
-
 def convertToLowerStrings(item):  # creating a "pure function" that turns a string to lower case
     return str(item).lower()
-
 
 def multiplyByTwo(item):  # creating a "pure function" that multiply a number by 2
     return item * 2
