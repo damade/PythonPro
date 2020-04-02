@@ -17,3 +17,12 @@ print('''Dear Alice,
 Eve's cat has been arrested for catnapping, cat burglary, and extortion.
 Sincerely,
 Bob''')
+
+theString = "Dear Alice,Eve's cat has been arrested for catnapping, cat burglary, and extortion."
+
+"""The Spilt and Partiton function is alike but 
+Partition only splits the string once
+It keeps track of the delimeter
+Always return same Data Structure"""
+print(theString.split('cat'))
+print(theString.partition('cat'))
