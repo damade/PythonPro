@@ -18,7 +18,7 @@ def performance(fn):
 
 @performance
 def longTime():
-    for i in range(100000000000000000):
+    for i in range(10000000):
         i * 5
 
 
