@@ -1,5 +1,26 @@
 class Solution:
+    def __init__(self):
+        self.stack = []
+        self.queue = list()
 
+    def pushCharacter(self, dataval):
+        # Use list append method to add element
+        return self.stack.append(dataval)
+
+    def enqueueCharacter(self, dataval):
+        return self.queue.insert(0, dataval)
+
+    def popCharacter(self):
+        if len(self.stack) <= 0:
+            return self.stack
+        else:
+            return self.stack.pop()
+
+    def dequeueCharacter(self):
+        if len(self.queue) > 0:
+            return self.queue.pop()
+        else:
+            return self.queue
 
 # Write your code here
 
