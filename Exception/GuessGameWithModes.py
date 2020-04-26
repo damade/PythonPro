@@ -11,8 +11,8 @@ def easyMode():
             if (userInput == easyRandomValue):
                 print("\nYou guessed right")
                 print(f"You got it after {count} trials\n")
-                # break
-                homeAnyOther()
+                break
+                # homeAnyOther()
             elif (userInput < easyRandomValue):
                 print("\nThat was wrong\nYour guess is low")
                 print(f"\nYou have {totalNumber-count} guesses left\n")
