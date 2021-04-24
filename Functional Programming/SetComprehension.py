@@ -28,8 +28,8 @@ setSquareRangeOfHundred = [num ** 2 for num in range(0, 100)]
 # A list containing esquare of even numbers ranging from 0 to 99
 setEvenSquareRangeOfHundred = [num ** 2 for num in range(0, 100) if num % 2 == 0]
 
-'''print(setRangeOfHundred)
+print(setRangeOfHundred)
 print("\n")
 print(setSquareRangeOfHundred)
 print("\n")
-print(setEvenSquareRangeOfHundred)'''
+print(setEvenSquareRangeOfHundred)
