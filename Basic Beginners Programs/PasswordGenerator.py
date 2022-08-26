@@ -18,7 +18,7 @@ def PasswordGenerator(first_name, last_name):
 
 def PasswordGeneratorOnly():
     size = 9
-    chars = string.ascii_uppercase + string.digits + string.ascii_lowercase  # specifies the type of chracter needed through ASCII
+    chars = string.ascii_uppercase + string.digits + string.ascii_lowercase + string.ascii_letters # specifies the type of chracter needed through ASCII
     randomString = ''.join(random.choice(chars) for _ in range(size))
     print(randomString)  # releases the output of the input
     return
